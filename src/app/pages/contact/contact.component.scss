@@ -1,0 +1,74 @@
+
+:host {
+    display: block;
+    background-color: #f7f7f7ff;
+    font-family: helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman,
+    sans-serif;
+}
+
+.contact-container {
+   max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 20px;
+    margin: auto;
+
+    .chat-section {
+        text-align: center;
+        width: 45%;
+        h1 {
+            text-transform: uppercase;
+            font-size:52px;
+            margin-bottom: 32px;
+            font-weight: 400;
+          }
+    }
+    .chat-section {
+        width: 45%;
+    }
+  
+  .info-line {
+    padding: 12px 0;
+    font-weight: 300;
+  }
+
+  .form-section {
+    width: 400px;
+  }
+  
+    .form-group {
+      margin-bottom: 16px;
+  
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 300;
+        color: #565760ff;
+      }
+  
+      input, textarea {
+        padding: 12px;
+        color: #565760ff;
+      background-color: inherit;
+      border: none;
+      border-bottom: 1px solid;
+      width: 100%;
+      box-sizing: border-box;
+      }
+   
+    }
+  
+    button {
+      padding: 16px 8px ;
+      background-color: #33343fff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+  }
+  
+//   .map-container {
+//     width: 100%;
+//     height: 400px;
+//   }

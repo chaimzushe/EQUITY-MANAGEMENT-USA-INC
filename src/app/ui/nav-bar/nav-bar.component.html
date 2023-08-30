@@ -1,0 +1,23 @@
+<nav class="nav">
+    <span class="logo">
+        EQUITY MANAGEMENT USA INC
+    </span>
+    <button [class.hamburger--active]="showMenu" class="hamburger" (click)="toggleMenu()" >
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line">  </span>
+        <span class="hamburger-line"></span>
+      </button>
+    <ul [class.mobile-links--active]="showMenu" class="mobile-links">
+        <ng-container  *ngFor="let link of links">
+            <a *ngIf="!link.external" (click)="closeMenu()"  [routerLink]="link.routeTo" class="link">{{link.name}}</a>
+            <a *ngIf="link.external" (click)="closeMenu()" target="_blank" [href]="link.routeTo" class="link">{{link.name}}</a>
+        </ng-container>
+   
+    </ul>
+    <ul class="links">
+        <ng-container  *ngFor="let link of links">
+            <a *ngIf="!link.external" (click)="closeMenu()"  [routerLink]="link.routeTo" class="link">{{link.name}}</a>
+            <a *ngIf="link.external" (click)="closeMenu()" target="_blank" [href]="link.routeTo" class="link">{{link.name}}</a>
+        </ng-container>
+    </ul>
+</nav>
