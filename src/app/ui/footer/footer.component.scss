@@ -23,3 +23,13 @@
     font-weight: 300;
     margin-top: 52px;
 }
+
+.links {
+    a {
+        color: inherit;
+        text-decoration: none;
+        &.active-link{
+            border-bottom: 1px solid;
+        }
+    }
+}

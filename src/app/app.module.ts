@@ -10,6 +10,8 @@ import { ApplicationComponent } from './pages/application/application.component'
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './ui/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+import { TermsComponent } from './pages/terms/terms.component';
+import { PrivacyComponent } from './pages/privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FormsModule } from '@angular/forms';
     ContactComponent,
     ApplicationComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    TermsComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,
