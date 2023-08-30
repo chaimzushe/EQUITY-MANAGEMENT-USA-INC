@@ -9,6 +9,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ApplicationComponent } from './pages/application/application.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './ui/footer/footer.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './ui/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

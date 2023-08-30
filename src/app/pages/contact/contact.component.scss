@@ -12,10 +12,17 @@
     justify-content: space-between;
     padding: 72px 20px;
     margin: auto;
-
+    @media(max-width: 950px){
+        flex-direction: column;
+        align-items: center;
+        gap: 22px
+    }
     .chat-section {
         text-align: center;
         width: 45%;
+        @media(max-width: 950px){
+            width: 100%;
+        }
         h1 {
             text-transform: uppercase;
             font-size:52px;
@@ -25,6 +32,9 @@
     }
     .chat-section {
         width: 45%;
+        @media(max-width: 950px){
+            width: 100%;
+        }
     }
   
   .info-line {
