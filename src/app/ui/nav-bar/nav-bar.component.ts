@@ -11,7 +11,7 @@ export class NavBarComponent {
     {name: 'About', routeTo: 'about'},
     {name: 'Contact', routeTo: 'contact'},
     {name: 'Pay Rent', routeTo: 'https://Equitymgmt.twa.rentmanager.com', external: true},
-    {name: 'Application', routeTo: 'https://secure.weimark.com/ifw/7586f3e03a2ae6f186a95b9a0e6ecb61/924/new' , external: true},
+    {name: 'Application', routeTo: 'application'},
   ]
   showMenu: boolean = false;
 
